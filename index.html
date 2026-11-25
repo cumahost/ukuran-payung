@@ -1,0 +1,1258 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Panduan Ukuran & Visualisasi Payung Promosi | ukuran.payunghujan.com</title>
+  <meta name="description" content="Pahami perbedaan ukuran payung lipat, standar 24 inci, 26 inci, semi golf 28 inci, hingga golf 30 inci dengan visualisasi skala manusia yang mudah dipahami. By Alat Promosi Bali." />
+  <link rel="canonical" href="https://ukuran.payunghujan.com/" />
+
+  <!-- Open Graph / WhatsApp Link Preview -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://ukuran.payunghujan.com/" />
+  <meta property="og:title" content="Panduan Visual Ukuran Payung Promosi — PayungHujan.com" />
+  <meta property="og:description" content="Lihat perbandingan bentangan asli payung lipat, 24&quot;, 26&quot;, Semi Golf 28&quot;, hingga Golf 30&quot; secara interaktif sebelum memesan souvenir." />
+  <meta property="og:site_name" content="PayungHujan.com - Alat Promosi Bali" />
+
+  <!-- Inline SVG Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%232563eb'%3E%3Cpath d='M12 2a10 10 0 0 0-10 10h9v8a2 2 0 0 0 4 0v-1h-2v1a1 1 0 0 1-2 0v-8h9A10 10 0 0 0 12 2z'/%3E%3C/svg%3E" />
+  
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Google Fonts: Plus Jakarta Sans & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            display: ['Plus Jakarta Sans', 'sans-serif'],
+          },
+          colors: {
+            brand: {
+              50: '#eff6ff',
+              100: '#dbeafe',
+              500: '#2563eb',
+              600: '#1d4ed8',
+              700: '#1e40af',
+              900: '#0f172a',
+            },
+            amberbrand: {
+              400: '#fbbf24',
+              500: '#f59e0b',
+              600: '#d97706',
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    /* Custom transitions for smooth SVG scaling */
+    .umbrella-transition {
+      transition: all 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+    }
+    .grid-pattern {
+      background-size: 20px 20px;
+      background-image: 
+        linear-gradient(to right, rgba(148, 163, 184, 0.14) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(148, 163, 184, 0.14) 1px, transparent 1px);
+    }
+    /* Custom scrollbar for horizontal pill bar on mobile */
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+    .no-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+    @keyframes fadeSlideDown {
+      from { opacity: 0; transform: translateY(-8px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .animate-fade-down {
+      animation: fadeSlideDown 0.25s ease-out forwards;
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-blue-600 selection:text-white pb-20 sm:pb-0">
+
+  <!-- Top Navigation Bar (Mobile-First with Hamburger Menu) -->
+  <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-200/80">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 h-14 sm:h-16 flex items-center justify-between gap-2">
+      <!-- Brand -->
+      <a href="#" class="flex items-center gap-2.5 shrink-0">
+        <div class="w-8 h-8 sm:w-9 sm:h-9 rounded-xl bg-blue-600 flex items-center justify-center text-white shadow-sm shadow-blue-600/20">
+          <svg class="w-4 h-4 sm:w-5 sm:h-5" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M22 12a10.06 10.06 0 00-20 0Z"/>
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 12v8a2 2 0 004 0"/>
+          </svg>
+        </div>
+        <div>
+          <span class="font-display font-bold text-slate-900 text-sm sm:text-lg tracking-tight block leading-none">PayungHujan<span class="text-blue-600">.com</span></span>
+          <span class="text-[10px] sm:text-[11px] text-slate-500 font-medium">by Alat Promosi Bali</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="hidden md:flex items-center gap-6 text-sm font-medium text-slate-600">
+        <a href="#visualizer" class="hover:text-blue-600 transition-colors">Simulasi Ukuran</a>
+        <a href="#edukasi-inci" class="hover:text-blue-600 transition-colors">Arti Angka Inci</a>
+        <a href="#tabel-perbandingan" class="hover:text-blue-600 transition-colors">Tabel Lengkap</a>
+      </nav>
+
+      <!-- Right Actions: CTA + Mobile Hamburger -->
+      <div class="flex items-center gap-2">
+        <a href="#konsultasi" class="inline-flex items-center gap-1.5 bg-blue-600 hover:bg-blue-700 text-white text-xs sm:text-sm font-semibold px-3 sm:px-4 py-2 sm:py-2.5 rounded-xl transition-all shadow-sm shadow-blue-600/20 active:scale-95">
+          <span>Mockup Gratis</span>
+          <svg class="w-3.5 h-3.5 sm:w-4 sm:h-4" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
+          </svg>
+        </a>
+
+        <!-- Mobile Menu Button -->
+        <button id="mobileMenuBtn" type="button" aria-label="Buka Menu Navigasi" class="md:hidden p-2 rounded-xl border border-slate-200 text-slate-700 hover:bg-slate-100 active:scale-95 transition-all">
+          <svg id="menuIconOpen" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+          <svg id="menuIconClose" class="w-5 h-5 hidden" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Dropdown Menu -->
+    <div id="mobileMenuDrawer" class="hidden md:hidden bg-white border-b border-slate-200 px-4 pt-2 pb-4 shadow-lg animate-fade-down">
+      <div class="flex flex-col space-y-1 text-sm font-semibold text-slate-700">
+        <a href="#visualizer" class="mobile-nav-link flex items-center justify-between px-3 py-2.5 rounded-xl hover:bg-blue-50 hover:text-blue-600">
+          <span>1. Simulasi Skala Ukuran</span>
+          <span class="text-xs text-slate-400">→</span>
+        </a>
+        <a href="#edukasi-inci" class="mobile-nav-link flex items-center justify-between px-3 py-2.5 rounded-xl hover:bg-blue-50 hover:text-blue-600">
+          <span>2. Kenapa 28" Lebarnya 125 cm?</span>
+          <span class="text-xs text-slate-400">→</span>
+        </a>
+        <a href="#tabel-perbandingan" class="mobile-nav-link flex items-center justify-between px-3 py-2.5 rounded-xl hover:bg-blue-50 hover:text-blue-600">
+          <span>3. Tabel Perbandingan Lengkap</span>
+          <span class="text-xs text-slate-400">→</span>
+        </a>
+        <a href="#konsultasi" class="mobile-nav-link flex items-center justify-between px-3 py-2.5 rounded-xl bg-blue-50 text-blue-700 mt-1">
+          <span>4. Tanya Harga &amp; Mockup Gratis</span>
+          <span class="text-xs font-bold">Gratis</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section (Mobile-First Compact & Impactful) -->
+  <section class="relative overflow-hidden bg-gradient-to-b from-slate-900 via-slate-900 to-blue-950 text-white pt-8 pb-12 sm:pt-14 sm:pb-20">
+    <div class="absolute inset-0 opacity-20 grid-pattern pointer-events-none"></div>
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 relative z-10">
+      <div class="max-w-3xl">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/20 border border-blue-400/30 text-blue-200 text-[11px] sm:text-xs font-medium mb-3 sm:mb-4">
+          <span class="w-2 h-2 rounded-full bg-amber-400 animate-pulse"></span>
+          Panduan Visual Sebelum Memesan Souvenir Payung
+        </div>
+        <h1 class="font-display text-2xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight leading-snug sm:leading-tight mb-3 sm:mb-4">
+          Jangan Salah Pilih Ukuran! Lihat <span class="text-amber-400">Bentangan Asli Payung</span> Secara Visual.
+        </h1>
+        <p class="text-slate-300 text-sm sm:text-lg leading-relaxed max-w-2xl">
+          Banyak yang mengira <strong>"Payung 28 inci"</strong> lebarnya cuma 71 cm. Padahal, angka inci pada payung adalah <strong>panjang 1 sisi jari-jarinya</strong>. Ketuk ukuran di bawah untuk melihat skala aslinya.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Interactive Visualizer Section -->
+  <main id="visualizer" class="max-w-6xl mx-auto px-3 sm:px-6 -mt-6 sm:-mt-8 relative z-20">
+    <div class="bg-white rounded-2xl sm:rounded-3xl shadow-xl shadow-slate-200/70 border border-slate-200/80 overflow-hidden">
+      
+      <!-- Step 1: Mobile-First Responsive Selector Grid -->
+      <div class="bg-slate-50/95 border-b border-slate-200 p-3.5 sm:p-5">
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2.5 mb-3">
+          <span class="text-xs font-bold uppercase tracking-wider text-slate-600 flex items-center gap-1.5">
+            <span class="w-5 h-5 rounded-full bg-blue-600 text-white inline-flex items-center justify-center text-[11px]">1</span>
+            Ketuk Ukuran Payung:
+          </span>
+          <label class="inline-flex items-center justify-between sm:justify-start gap-2 text-xs font-medium text-slate-700 cursor-pointer select-none bg-white px-3 py-2 rounded-xl border border-slate-200 shadow-2xs active:bg-slate-50">
+            <span>Bandingkan bayangan dgn <strong>Standar 24"</strong></span>
+            <input type="checkbox" id="compareToggle" class="rounded text-blue-600 focus:ring-blue-500 w-4 h-4">
+          </label>
+        </div>
+
+        <!-- 5 Umbrella Buttons: 2-col grid on mobile -> 5-col grid on desktop -->
+        <div id="sizeSelector" class="grid grid-cols-2 sm:grid-cols-5 gap-2">
+          <!-- Populated dynamically by JS -->
+        </div>
+      </div>
+
+      <!-- Step 2: Interactive Visual Stage + Detail Card -->
+      <div class="grid grid-cols-1 lg:grid-cols-12">
+        
+        <!-- Left/Top: Visual Scale Canvas (7 cols) -->
+        <div class="lg:col-span-7 p-4 sm:p-8 bg-gradient-to-b from-sky-50/70 via-white to-slate-50 grid-pattern border-b lg:border-b-0 lg:border-r border-slate-200 flex flex-col justify-between relative">
+          
+          <!-- Top Badge Info inside Canvas -->
+          <div class="flex flex-wrap items-center justify-between gap-2 mb-2 sm:mb-4">
+            <div class="inline-flex items-center gap-1.5 bg-white/95 backdrop-blur px-2.5 py-1 rounded-xl border border-slate-200 shadow-2xs">
+              <span class="w-2 h-2 rounded-full bg-blue-600"></span>
+              <span class="text-[11px] sm:text-xs font-semibold text-slate-700">Skala Manusia (±170 cm)</span>
+            </div>
+            <span id="badgeHighlight" class="text-[11px] sm:text-xs font-bold px-2.5 py-1 rounded-xl bg-amber-100 text-amber-800 border border-amber-200">
+              Paling Favorit Kantor
+            </span>
+          </div>
+
+          <!-- SVG Proportional Stage -->
+          <div class="w-full flex items-center justify-center my-1 sm:my-2">
+            <!-- ViewBox: 440 x 335. Scale: 1 cm = 2.4 px -->
+            <svg id="umbrellaStage" viewBox="0 0 440 335" class="w-full max-w-[500px] h-auto overflow-visible select-none" aria-label="Visualisasi Perbandingan Ukuran Payung">
+              <defs>
+                <linearGradient id="canopyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#2563eb" />
+                  <stop offset="50%" stop-color="#1d4ed8" />
+                  <stop offset="100%" stop-color="#1e3a8a" />
+                </linearGradient>
+                <linearGradient id="canopyCenterGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+                  <stop offset="0%" stop-color="#3b82f6" />
+                  <stop offset="100%" stop-color="#1d4ed8" />
+                </linearGradient>
+                <linearGradient id="woodHandleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                  <stop offset="0%" stop-color="#92400e" />
+                  <stop offset="50%" stop-color="#b45309" />
+                  <stop offset="100%" stop-color="#78350f" />
+                </linearGradient>
+                <filter id="softShadow" x="-15%" y="-15%" width="130%" height="130%">
+                  <feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#0f172a" flood-opacity="0.12" />
+                </filter>
+              </defs>
+
+              <!-- Ground Reference Line -->
+              <line x1="16" y1="308" x2="424" y2="308" stroke="#cbd5e1" stroke-width="2" stroke-linecap="round" />
+              <!-- Scale Ruler Marks on Ground -->
+              <g id="groundRuler" fill="#94a3b8" font-size="9.5" font-family="Inter, sans-serif" text-anchor="middle">
+                <line x1="52" y1="304" x2="52" y2="312" stroke="#94a3b8" stroke-width="1.2"/>
+                <text x="52" y="324">-70 cm</text>
+                <line x1="136" y1="304" x2="136" y2="312" stroke="#94a3b8" stroke-width="1.2"/>
+                <text x="136" y="324">-35 cm</text>
+                <line x1="220" y1="303" x2="220" y2="313" stroke="#64748b" stroke-width="1.5"/>
+                <text x="220" y="324" font-weight="700" fill="#475569">0 (Pusat)</text>
+                <line x1="304" y1="304" x2="304" y2="312" stroke="#94a3b8" stroke-width="1.2"/>
+                <text x="304" y="324">+35 cm</text>
+                <line x1="388" y1="304" x2="388" y2="312" stroke="#94a3b8" stroke-width="1.2"/>
+                <text x="388" y="324">+70 cm</text>
+              </g>
+
+              <!-- Ghost Comparison Outline (Standard 24" = 105 cm diameter => radius 126px) -->
+              <g id="ghostComparison" class="opacity-0 transition-opacity duration-300 pointer-events-none">
+                <path d="M 94 115 Q 220 42 346 115 Z" fill="rgba(245, 158, 11, 0.09)" stroke="#f59e0b" stroke-width="2" stroke-dasharray="5 4" />
+                <text x="346" y="105" fill="#d97706" font-size="10.5" font-weight="700" text-anchor="end">Standar 24" (105 cm)</text>
+              </g>
+
+              <!-- Human Silhouettes (Height ~170cm = ~185px from y=123 to y=308) -->
+              <!-- Person 1 (Primary Holder) -->
+              <g id="person1" class="umbrella-transition" transform="translate(188, 133)">
+                <circle cx="0" cy="14" r="13" fill="#cbd5e1" />
+                <path d="M -21 42 C -21 32, 21 32, 21 42 L 18 112 L -18 112 Z" fill="#94a3b8" />
+                <rect x="-15" y="112" width="12" height="63" rx="5" fill="#94a3b8" />
+                <rect x="3" y="112" width="12" height="63" rx="5" fill="#94a3b8" />
+                <text x="0" y="80" fill="#ffffff" font-size="9" font-weight="700" text-anchor="middle">1 Orang</text>
+              </g>
+
+              <!-- Person 2 (Companion) -->
+              <g id="person2" class="umbrella-transition" transform="translate(254, 139)" opacity="0.25">
+                <circle cx="0" cy="14" r="12" fill="#cbd5e1" />
+                <path d="M -19 40 C -19 31, 19 31, 19 40 L 16 106 L -16 106 Z" fill="#94a3b8" />
+                <rect x="-13" y="106" width="11" height="63" rx="5" fill="#94a3b8" />
+                <rect x="2" y="106" width="11" height="63" rx="5" fill="#94a3b8" />
+                <text id="person2Label" x="0" y="75" fill="#ffffff" font-size="8.5" font-weight="700" text-anchor="middle">Orang ke-2</text>
+              </g>
+
+              <!-- Rain Drops Outside Canopy -->
+              <g id="rainDrops" stroke="#38bdf8" stroke-width="1.6" stroke-linecap="round" opacity="0.65">
+                <line id="rainLeft1" x1="55" y1="90" x2="51" y2="108" />
+                <line id="rainLeft2" x1="45" y1="145" x2="41" y2="163" />
+                <line id="rainLeft3" x1="60" y1="205" x2="56" y2="223" />
+                <line id="rainRight1" x1="385" y1="90" x2="381" y2="108" />
+                <line id="rainRight2" x1="395" y1="145" x2="391" y2="163" />
+                <line id="rainRight3" x1="380" y1="205" x2="376" y2="223" />
+              </g>
+
+              <!-- Dynamic Umbrella Group -->
+              <g id="umbrellaGroup" filter="url(#softShadow)">
+                <!-- Central Shaft / Pole -->
+                <line id="umbrellaShaft" x1="220" y1="45" x2="220" y2="215" stroke="#334155" stroke-width="4" stroke-linecap="round" />
+                
+                <!-- Dynamic Handle (Straight / Wood / J-Hook / EVA / Pedal) -->
+                <path id="umbrellaHandle" d="M 220 212 L 220 232" stroke="#0f172a" stroke-width="7" stroke-linecap="round" fill="none" />
+                
+                <!-- Ferrule / Top Tip -->
+                <line id="umbrellaTip" x1="220" y1="32" x2="220" y2="48" stroke="#1e293b" stroke-width="4.5" stroke-linecap="round" />
+
+                <!-- Main Canopy Dome -->
+                <path id="canopyMain" class="umbrella-transition" d="M 70 115 Q 220 28 370 115 Q 295 104 220 115 Q 145 104 70 115 Z" fill="url(#canopyGrad)" />
+                
+                <!-- Center Panel Highlight -->
+                <path id="canopyCenter" class="umbrella-transition" d="M 162 111 Q 220 28 278 111 Q 220 105 162 111 Z" fill="url(#canopyCenterGrad)" opacity="0.85" />
+
+                <!-- Double Rib / Fiber Visual Indicator (Shown for Golf 30" variants) -->
+                <path id="doubleRibIndicator" class="umbrella-transition opacity-0" d="M 220 55 Q 152 80 86 113 M 220 55 Q 288 80 354 113" fill="none" stroke="#93c5fd" stroke-width="1.8" stroke-dasharray="4 3" />
+
+                <!-- Rib Highlight Line (Left Slope) -->
+                <path id="ribHighlight" class="umbrella-transition" d="M 220 46 Q 142 74 70 115" fill="none" stroke="#fbbf24" stroke-width="3.8" stroke-linecap="round" />
+                
+                <!-- Rib Dimension Callout Badge -->
+                <g id="ribCallout" class="umbrella-transition" transform="translate(120, 62)">
+                  <rect x="-58" y="-14" width="116" height="24" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5" />
+                  <text id="ribCalloutText" x="0" y="2" fill="#92400e" font-size="10.5" font-weight="800" text-anchor="middle">Jari-jari: 28" (71 cm)</text>
+                </g>
+
+                <!-- Diameter Dimension Arrow Line -->
+                <g id="diameterDimension" class="umbrella-transition">
+                  <line id="dimLineLeft" x1="70" y1="118" x2="70" y2="142" stroke="#2563eb" stroke-width="1.2" stroke-dasharray="3 2" />
+                  <line id="dimLineRight" x1="370" y1="118" x2="370" y2="142" stroke="#2563eb" stroke-width="1.2" stroke-dasharray="3 2" />
+                  <line id="dimArrow" x1="73" y1="136" x2="367" y2="136" stroke="#2563eb" stroke-width="2" />
+                  <polygon id="arrowHeadL" points="70,136 78,132 78,140" fill="#2563eb" />
+                  <polygon id="arrowHeadR" points="370,136 362,132 362,140" fill="#2563eb" />
+                  
+                  <!-- Diameter Pill Label -->
+                  <rect x="144" y="124" width="152" height="24" rx="12" fill="#1e40af" />
+                  <text id="diameterCalloutText" x="220" y="139.5" fill="#ffffff" font-size="11" font-weight="700" text-anchor="middle">Diameter: ± 120 – 125 cm</text>
+                </g>
+              </g>
+            </svg>
+          </div>
+
+          <!-- Legend Footer inside Canvas -->
+          <div class="flex flex-wrap items-center justify-center gap-x-4 gap-y-1.5 pt-3 border-t border-slate-200/80 text-[11px] sm:text-xs text-slate-600">
+            <div class="flex items-center gap-1.5">
+              <span class="w-3.5 h-1 rounded-full bg-amber-400 inline-block"></span>
+              <span><strong>Kuning:</strong> Panjang Jari-Jari</span>
+            </div>
+            <div class="flex items-center gap-1.5">
+              <span class="w-3.5 h-1 rounded-full bg-blue-600 inline-block"></span>
+              <span><strong>Biru:</strong> Lebar Diameter Terbuka</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right/Bottom: Detailed Specs & Custom Configurator Card (5 cols) -->
+        <div class="lg:col-span-5 p-5 sm:p-8 flex flex-col justify-between bg-white">
+          <div>
+            <div class="flex items-center gap-2 text-[11px] sm:text-xs font-bold text-blue-600 uppercase tracking-wider mb-1">
+              <span id="specCategory">Kategori 4 dari 5</span>
+            </div>
+            <h2 id="specTitle" class="font-display text-xl sm:text-3xl font-extrabold text-slate-900 mb-2 leading-tight">
+              Payung Semi Golf 28 Inci
+            </h2>
+            <p id="specSubtitle" class="text-xs sm:text-sm text-slate-600 leading-relaxed mb-5">
+              Ukuran paling favorit untuk souvenir perusahaan &amp; event kantor. Dilengkapi tombol bukaan otomatis yang praktis.
+            </p>
+
+            <!-- 4 Key Metrics Grid -->
+            <div class="grid grid-cols-2 gap-2.5 sm:gap-3 mb-5">
+              <div class="p-3 sm:p-3.5 rounded-2xl bg-amber-50/80 border border-amber-200/80">
+                <span class="text-[10px] sm:text-[11px] font-semibold uppercase tracking-wide text-amber-800 block mb-0.5">Panjang Jari-Jari</span>
+                <span id="metricRibIn" class="font-display text-base sm:text-xl font-extrabold text-slate-900 block">28 inci</span>
+                <span id="metricRibCm" class="text-[11px] sm:text-xs font-medium text-amber-900/80">± 71 cm (1 sisi)</span>
+              </div>
+
+              <div class="p-3 sm:p-3.5 rounded-2xl bg-blue-50/80 border border-blue-200/80">
+                <span class="text-[10px] sm:text-[11px] font-semibold uppercase tracking-wide text-blue-800 block mb-0.5">Diameter Terbuka</span>
+                <span id="metricDiameter" class="font-display text-base sm:text-xl font-extrabold text-blue-700 block">± 120–125 cm</span>
+                <span class="text-[11px] sm:text-xs font-medium text-blue-900/80">Bentangan asli</span>
+              </div>
+
+              <div class="p-3 sm:p-3.5 rounded-2xl bg-slate-50 border border-slate-200/80">
+                <span class="text-[10px] sm:text-[11px] font-semibold uppercase tracking-wide text-slate-500 block mb-0.5">Kapasitas Teduh</span>
+                <span id="metricCapacity" class="font-display text-sm sm:text-base font-bold text-slate-800 block">Muat 2 Orang</span>
+                <span id="metricCapacityNote" class="text-[11px] text-slate-500">Bahu terlindungi</span>
+              </div>
+
+              <div class="p-3 sm:p-3.5 rounded-2xl bg-slate-50 border border-slate-200/80">
+                <span class="text-[10px] sm:text-[11px] font-semibold uppercase tracking-wide text-slate-500 block mb-0.5">Mekanisme / Rangka</span>
+                <span id="metricMechanism" class="font-display text-sm sm:text-base font-bold text-slate-800 block">Auto Open</span>
+                <span id="metricFoldLength" class="text-[11px] text-slate-500">Tombol otomatis</span>
+              </div>
+            </div>
+
+            <!-- SPECIAL CUSTOMIZER FOR GOLF 30 INCI (Shown automatically when Golf 30" is selected) -->
+            <div id="golf30Customizer" class="hidden mb-5 rounded-2xl bg-gradient-to-br from-amber-50 to-orange-50/70 border border-amber-300/80 p-4 animate-fade-down">
+              <div class="flex items-center justify-between gap-2 mb-2.5">
+                <span class="text-xs font-extrabold uppercase tracking-wider text-amber-900 flex items-center gap-1.5">
+                  <svg class="w-4 h-4 text-amber-600" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
+                  </svg>
+                  Opsi Custom Golf 30 Inci
+                </span>
+                <span class="text-[10px] font-bold px-2 py-0.5 rounded-full bg-amber-200/80 text-amber-900">Bisa Request</span>
+              </div>
+
+              <!-- Option 1: Rangka / Ruji & Mekanisme -->
+              <div class="mb-3">
+                <label class="block text-[11px] font-bold text-slate-700 mb-1.5">1. Pilihan Ruji / Rangka &amp; Bukaan:</label>
+                <div id="golfRibOptions" class="grid grid-cols-2 gap-1.5">
+                  <!-- Populated by JS -->
+                </div>
+              </div>
+
+              <!-- Option 2: Pilihan Handel / Gagang -->
+              <div>
+                <div class="flex items-center justify-between mb-1.5">
+                  <label class="block text-[11px] font-bold text-slate-700">2. Pilihan Handel / Gagang:</label>
+                  <span class="text-[10px] text-amber-800 font-medium">Standar: Kayu Lurus</span>
+                </div>
+                <div id="golfHandleOptions" class="grid grid-cols-2 gap-1.5">
+                  <!-- Populated by JS -->
+                </div>
+                <p id="evaNoteHint" class="hidden text-[11px] text-amber-800 mt-1.5 bg-white/80 px-2.5 py-1.5 rounded-lg border border-amber-200">
+                  *Catatan: Gagang <strong>Spon EVA</strong> tersedia khusus untuk varian bukaan <strong>Otomatis</strong>.
+                </p>
+              </div>
+            </div>
+
+            <!-- Ideal Use Cases -->
+            <div class="bg-slate-50 rounded-2xl p-3.5 sm:p-4 border border-slate-200/70 mb-5">
+              <h3 class="text-[11px] sm:text-xs font-bold uppercase tracking-wider text-slate-700 mb-2">Cocok Digunakan Untuk:</h3>
+              <ul id="specUseCases" class="space-y-1.5 text-xs sm:text-sm text-slate-600">
+                <!-- Populated by JS -->
+              </ul>
+            </div>
+          </div>
+
+          <!-- Action CTA -->
+          <div class="pt-1">
+            <a id="ctaOrderBtn" href="#konsultasi" class="w-full flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white text-sm font-semibold py-3.5 px-5 rounded-2xl transition-all shadow-md shadow-blue-600/20 active:scale-[0.98]">
+              <span>Minta Mockup Desain Ukuran Ini</span>
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+              </svg>
+            </a>
+            <p class="text-[11px] text-center text-slate-400 mt-2">
+              Gratis simulasi desain &amp; penempatan logo sebelum deal.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- Educational Section: Mengapa Angka Inci Berbeda dengan Diameter? -->
+  <section id="edukasi-inci" class="max-w-6xl mx-auto px-4 sm:px-6 py-12 sm:py-20">
+    <div class="text-center max-w-2xl mx-auto mb-8 sm:mb-10">
+      <span class="text-xs font-bold uppercase tracking-wider text-blue-600 block mb-1.5">Cara Membaca Spesifikasi Pabrik</span>
+      <h2 class="font-display text-xl sm:text-3xl font-extrabold text-slate-900 mb-2.5">
+        Kenapa "28 Inci" Lebarnya Bisa 125 cm?
+      </h2>
+      <p class="text-slate-600 text-xs sm:text-base">
+        Banyak pembeli sempat ragu karena mengira 28 inci (71 cm) itu sempit. Berikut cara mengukur yang dipakai di seluruh industri payung:
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6">
+      <div class="bg-white p-5 sm:p-6 rounded-2xl sm:rounded-3xl border border-slate-200/80 shadow-2xs">
+        <div class="w-10 h-10 sm:w-11 sm:h-11 rounded-2xl bg-amber-100 text-amber-700 flex items-center justify-center font-display font-extrabold text-base sm:text-lg mb-3.5">
+          1
+        </div>
+        <h3 class="font-display font-bold text-base sm:text-lg text-slate-900 mb-1.5">Angka Inci = 1 Sisi Jari-Jari</h3>
+        <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+          Ukuran <strong>24", 26", 28", atau 30"</strong> diukur dari ujung atas payung mengikuti lengkungan kawat jari-jari hingga ke satu tepi kain (hanya setengah bentangan).
+        </p>
+      </div>
+
+      <div class="bg-white p-5 sm:p-6 rounded-2xl sm:rounded-3xl border border-slate-200/80 shadow-2xs">
+        <div class="w-10 h-10 sm:w-11 sm:h-11 rounded-2xl bg-blue-100 text-blue-700 flex items-center justify-center font-display font-extrabold text-base sm:text-lg mb-3.5">
+          2
+        </div>
+        <h3 class="font-display font-bold text-base sm:text-lg text-slate-900 mb-1.5">Diameter = Bentangan Penuh</h3>
+        <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+          Saat dibuka penuh, dua sisi jari-jari (kiri dan kanan) membentuk kubah lingkaran penuh. Maka payung <strong>28 inci (71 cm)</strong> menghasilkan lebar bentangan <strong>120 – 125 cm</strong>.
+        </p>
+      </div>
+
+      <div class="bg-white p-5 sm:p-6 rounded-2xl sm:rounded-3xl border border-slate-200/80 shadow-2xs">
+        <div class="w-10 h-10 sm:w-11 sm:h-11 rounded-2xl bg-emerald-100 text-emerald-700 flex items-center justify-center font-display font-extrabold text-base sm:text-lg mb-3.5">
+          3
+        </div>
+        <h3 class="font-display font-bold text-base sm:text-lg text-slate-900 mb-1.5">Patokan Cepat Memilih</h3>
+        <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+          Praktis masuk tas? Pilih <strong>Payung Lipat</strong>. Harian/event umum? Pilih <strong>Standar 24"</strong> atau <strong>26"</strong>. Hadiah VIP &amp; muat 2 orang? Pilih <strong>Semi Golf 28"</strong> atau <strong>Golf 30"</strong>.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quick Comparison Table Section (Mobile Cards + Desktop Table) -->
+  <section id="tabel-perbandingan" class="bg-white border-y border-slate-200/80 py-12 sm:py-20">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-2 mb-6 sm:mb-8">
+        <div>
+          <span class="text-xs font-bold uppercase tracking-wider text-blue-600 block mb-1">Ringkasan Spesifikasi</span>
+          <h2 class="font-display text-xl sm:text-3xl font-extrabold text-slate-900">
+            Perbandingan 5 Ukuran Payung
+          </h2>
+        </div>
+        <p class="text-xs text-slate-500">Ketuk salah satu ukuran untuk melihat visualisasinya di atas.</p>
+      </div>
+
+      <!-- Mobile Stacked Cards (Visible on < md) -->
+      <div id="mobileComparisonCards" class="grid grid-cols-1 gap-3 md:hidden">
+        <!-- Populated by JS -->
+      </div>
+
+      <!-- Desktop Table (Visible on >= md) -->
+      <div class="hidden md:block overflow-x-auto rounded-2xl border border-slate-200 shadow-2xs">
+        <table class="w-full text-left border-collapse">
+          <thead>
+            <tr class="bg-slate-900 text-white text-xs uppercase tracking-wider">
+              <th class="py-4 px-5 font-semibold">Jenis &amp; Ukuran</th>
+              <th class="py-4 px-5 font-semibold">Panjang Jari-Jari</th>
+              <th class="py-4 px-5 font-semibold">Diameter Terbuka</th>
+              <th class="py-4 px-5 font-semibold">Varian Rangka &amp; Fitur</th>
+              <th class="py-4 px-5 font-semibold">Kapasitas</th>
+            </tr>
+          </thead>
+          <tbody id="comparisonTableBody" class="divide-y divide-slate-200 text-sm">
+            <!-- Populated by JS -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Consultation & Free Mockup Form Section -->
+  <section id="konsultasi" class="max-w-6xl mx-auto px-4 sm:px-6 py-12 sm:py-20">
+    <div class="bg-gradient-to-br from-blue-600 to-blue-800 rounded-2xl sm:rounded-3xl p-5 sm:p-10 lg:p-12 text-white shadow-xl shadow-blue-900/15">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-7 sm:gap-8 items-center">
+        
+        <div class="lg:col-span-6">
+          <span class="inline-block px-3 py-1 rounded-full bg-white/15 text-blue-100 text-[11px] sm:text-xs font-semibold mb-3 sm:mb-4">
+            Alat Promosi Bali • Sejak 2011
+          </span>
+          <h2 class="font-display text-2xl sm:text-4xl font-extrabold leading-tight mb-3 sm:mb-4">
+            Sudah Menemukan Ukuran yang Pas?
+          </h2>
+          <p class="text-blue-100 text-xs sm:text-base leading-relaxed mb-5 sm:mb-6">
+            Kirimkan logo perusahaan atau acara Bapak/Ibu. Tim desain kami akan membuatkan <strong>mockup digital gratis</strong> di atas payung pilihan beserta estimasi harga terbaiknya—tanpa komitmen order di awal.
+          </p>
+          <div class="space-y-2 text-xs sm:text-sm text-blue-100">
+            <div class="flex items-center gap-2.5">
+              <svg class="w-4 h-4 sm:w-5 sm:h-5 text-amber-300 shrink-0" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+              </svg>
+              <span>Desain &amp; mockup digital <strong>100% Gratis</strong> sebelum deal</span>
+            </div>
+            <div class="flex items-center gap-2.5">
+              <svg class="w-4 h-4 sm:w-5 sm:h-5 text-amber-300 shrink-0" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+              </svg>
+              <span>Cetak sablon tajam &amp; awet untuk perusahaan, hotel, &amp; instansi</span>
+            </div>
+            <div class="flex items-center gap-2.5">
+              <svg class="w-4 h-4 sm:w-5 sm:h-5 text-amber-300 shrink-0" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+              </svg>
+              <span>Workshop &amp; gudang langsung di Denpasar, Bali</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Quick Inquiry Generator Card -->
+        <div class="lg:col-span-6 bg-white text-slate-800 rounded-2xl p-5 sm:p-6 shadow-lg">
+          <h3 class="font-display font-bold text-base sm:text-lg text-slate-900 mb-1">Siapkan Pesan Konsultasi Cepat</h3>
+          <p class="text-xs text-slate-500 mb-4">Otomatis menyesuaikan ukuran &amp; opsi custom yang Bapak/Ibu pilih di atas:</p>
+
+          <form id="inquiryForm" class="space-y-3.5">
+            <div>
+              <label class="block text-xs font-semibold text-slate-700 mb-1">Ukuran Payung Pilihan</label>
+              <select id="formSizeSelect" class="w-full rounded-xl border border-slate-300 bg-slate-50 px-3.5 py-2.5 text-sm font-medium text-slate-800 focus:border-blue-600 focus:bg-white focus:outline-none">
+                <!-- Populated by JS -->
+              </select>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              <div>
+                <label class="block text-xs font-semibold text-slate-700 mb-1">Estimasi Jumlah (Pcs)</label>
+                <input type="number" id="formQty" placeholder="Contoh: 100" min="10" value="100" class="w-full rounded-xl border border-slate-300 bg-slate-50 px-3.5 py-2.5 text-sm text-slate-800 focus:border-blue-600 focus:bg-white focus:outline-none" />
+              </div>
+              <div>
+                <label class="block text-xs font-semibold text-slate-700 mb-1">Nama / Instansi</label>
+                <input type="text" id="formName" placeholder="Nama Bapak/Ibu" class="w-full rounded-xl border border-slate-300 bg-slate-50 px-3.5 py-2.5 text-sm text-slate-800 focus:border-blue-600 focus:bg-white focus:outline-none" />
+              </div>
+            </div>
+
+            <div>
+              <label class="block text-xs font-semibold text-slate-700 mb-1">Preview Pesan Siap Kirim</label>
+              <textarea id="generatedMessage" rows="3" readonly class="w-full rounded-xl border border-slate-200 bg-slate-100 p-3 text-xs text-slate-700 leading-relaxed focus:outline-none"></textarea>
+            </div>
+
+            <div class="pt-1">
+              <button type="button" id="copyMsgBtn" class="w-full inline-flex items-center justify-center gap-2 bg-slate-900 hover:bg-slate-800 text-white text-sm font-semibold py-3.5 px-4 rounded-xl transition-all active:scale-95">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
+                </svg>
+                <span id="copyBtnText">Salin Teks Pesan</span>
+              </button>
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Sticky Bottom Quick Bar on Mobile -->
+  <div class="fixed bottom-0 inset-x-0 z-30 sm:hidden bg-white/95 backdrop-blur-md border-t border-slate-200 px-4 py-2.5 flex items-center justify-between gap-3 shadow-[0_-4px_12px_rgba(15,23,42,0.06)]">
+    <div class="min-w-0">
+      <span class="text-[10px] font-semibold text-slate-400 uppercase block leading-tight">Ukuran Dipilih:</span>
+      <span id="mobileStickyTitle" class="text-xs font-extrabold text-slate-900 truncate block">Semi Golf 28" (120–125 cm)</span>
+    </div>
+    <a href="#konsultasi" class="shrink-0 bg-blue-600 text-white text-xs font-bold px-4 py-2.5 rounded-xl shadow-sm active:scale-95">
+      Minta Mockup
+    </a>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-slate-900 text-slate-400 py-8 sm:py-10 border-t border-slate-800">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs">
+      <div class="text-center sm:text-left">
+        <p class="font-display font-bold text-white text-sm mb-1">PayungHujan.com — Alat Promosi Bali</p>
+        <p>Jl. Pulau Batanta No. 6, Denpasar, Bali • Spesialis Souvenir &amp; Payung Promosi Custom</p>
+      </div>
+      <div class="text-center sm:text-right">
+        <p>Panduan Visual Ukuran Payung Promosi</p>
+        <p class="text-slate-500 mt-0.5">Ukuran &amp; diameter merupakan estimasi standar pabrik (± 1–2 cm)</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification Box -->
+  <div id="toastBox" class="fixed bottom-16 sm:bottom-5 right-4 left-4 sm:left-auto z-50 transform translate-y-24 opacity-0 transition-all duration-300 pointer-events-none">
+    <div class="bg-slate-900 text-white px-4 py-3 rounded-2xl shadow-xl border border-slate-700 flex items-center justify-center sm:justify-start gap-2.5 text-xs sm:text-sm font-medium">
+      <span class="w-2.5 h-2.5 rounded-full bg-emerald-400 shrink-0"></span>
+      <span id="toastText">Pesan berhasil disalin ke clipboard!</span>
+    </div>
+  </div>
+
+  <script>
+    // Data 5 Kategori Utama Payung Hujan Promosi
+    const umbrellaData = [
+      {
+        id: 'lipat',
+        shortName: 'Payung Lipat',
+        mobileDim: 'Ø 95–100 cm',
+        badge: 'Praktis Masuk Tas',
+        categoryLabel: 'Kategori 1 dari 5 • Compact & Portable',
+        title: 'Payung Lipat (Lipat 2 & Lipat 3)',
+        subtitle: 'Tersedia mekanisme manual maupun duomatic (buka & tutup otomatis). Solusi paling ringkas untuk dibawa di dalam tas kerja atau laci mobil.',
+        ribIn: '± 21 – 23 inci',
+        ribCm: '± 53 – 58 cm',
+        ribShortCallout: 'Jari-jari: 21–23" (±55 cm)',
+        diameterText: '± 95 – 100 cm',
+        diameterAvgCm: 97.5,
+        capacity: 'Pas 1 Orang',
+        capacityNote: 'Ideal untuk pemakaian personal',
+        peopleCount: 1,
+        mechanism: 'Manual / Duomatic',
+        foldInfo: 'Terlipat: ± 25 – 40 cm',
+        handleType: 'compact',
+        useCases: [
+          'Souvenir seminar, workshop, & goodie bag peserta',
+          'Merchandise karyawan & nasabah bank yang mobilitasnya tinggi',
+          'Praktis disimpan di tas ransel, totebag, maupun dashboard mobil'
+        ]
+      },
+      {
+        id: 'standar-24',
+        shortName: 'Standar 24"',
+        mobileDim: 'Ø ± 105 cm',
+        badge: 'Paling Umum Harian',
+        categoryLabel: 'Kategori 2 dari 5 • Standard Stick Umbrella',
+        title: 'Payung Standar 24 Inci',
+        subtitle: 'Model gagang lurus yang kokoh dan klasik. Merupakan ukuran standar paling umum digunakan untuk kebutuhan souvenir harian.',
+        ribIn: '24 inci',
+        ribCm: '± 61 cm',
+        ribShortCallout: 'Jari-jari: 24" (±61 cm)',
+        diameterText: '± 105 cm',
+        diameterAvgCm: 105,
+        capacity: 'Cukup 1 Orang',
+        capacityNote: 'Nyaman untuk 1 orang dewasa',
+        peopleCount: 1,
+        mechanism: 'Gagang Lurus',
+        foldInfo: 'Panjang total: ± 82 cm',
+        handleType: 'straight',
+        useCases: [
+          'Souvenir promosi perusahaan dengan anggaran paling efisien',
+          'Kebutuhan operasional harian hotel, villa, & restoran',
+          'Merchandise event massal dengan area sablon logo jelas'
+        ]
+      },
+      {
+        id: 'ukuran-26',
+        shortName: 'Ukuran 26"',
+        mobileDim: 'Ø ± 115 cm',
+        badge: 'Banyak Dicari',
+        categoryLabel: 'Kategori 3 dari 5 • Ruji Single Chrome',
+        title: 'Payung 26 Inci (Ruji Single Chrome)',
+        subtitle: 'Ukuran tengah antara standar dan semi-golf dengan tampilan ruji single chrome yang bersih dan elegan. Sangat banyak dicari klien.',
+        ribIn: '26 inci',
+        ribCm: '± 66 cm',
+        ribShortCallout: 'Jari-jari: 26" (±66 cm)',
+        diameterText: '± 115 cm',
+        diameterAvgCm: 115,
+        capacity: 'Lega 1 Orang',
+        capacityNote: 'Perlindungan ekstra untuk 1 orang + tas',
+        peopleCount: 1.3,
+        mechanism: 'Ruji Single Chrome',
+        foldInfo: 'Panjang total: ± 89 cm',
+        handleType: 'straight',
+        useCases: [
+          'Klien yang merasa 24" kurang lebar tapi tidak ingin terlalu besar',
+          'Merchandise korporat dengan tampilan rangka chrome elegan',
+          'Perlindungan ekstra bagi pengguna yang membawa tas kerja/ransel'
+        ]
+      },
+      {
+        id: 'semi-golf-28',
+        shortName: 'Semi Golf 28"',
+        mobileDim: 'Ø 120–125 cm',
+        badge: 'Paling Favorit Kantor',
+        categoryLabel: 'Kategori 4 dari 5 • Auto Open Favorite',
+        title: 'Payung Semi Golf 28 Inci (Otomatis)',
+        subtitle: 'Ukuran paling favorit untuk souvenir perusahaan dan event kantor. Dilengkapi tombol bukaan otomatis (auto open) yang praktis saat turun dari mobil.',
+        ribIn: '28 inci',
+        ribCm: '± 71 cm',
+        ribShortCallout: 'Jari-jari: 28" (±71 cm)',
+        diameterText: '± 120 – 125 cm',
+        diameterAvgCm: 122.5,
+        capacity: 'Muat 2 Orang',
+        capacityNote: 'Bentangan 1,2 meter lebih',
+        peopleCount: 2,
+        mechanism: 'Tombol Otomatis',
+        foldInfo: 'Panjang total: ± 95 cm',
+        handleType: 'golf',
+        useCases: [
+          'Souvenir resmi perusahaan, BUMN, perbankan, & instansi pemerintah',
+          'Hadiah relasi bisnis (corporate gift) & paket gathering kantor',
+          'Nyaman dipakai berdua saat hujan deras tanpa bahu basah'
+        ]
+      },
+      {
+        id: 'golf-30',
+        shortName: 'Golf 30"',
+        mobileDim: 'Ø 130–135 cm',
+        badge: 'Ekstra Luas & Custom',
+        categoryLabel: 'Kategori 5 dari 5 • Extra Large Golf (Custom)',
+        title: 'Payung Golf 30 Inci',
+        subtitle: 'Bentangan terluas (130–135 cm) untuk perlindungan maksimal. Bisa custom pilihan ruji (single, double, fiber manual/otomatis) serta model handel sesuai kebutuhan.',
+        ribIn: '30 inci',
+        ribCm: '± 76 cm',
+        ribShortCallout: 'Jari-jari: 30" (±76 cm)',
+        diameterText: '± 130 – 135 cm',
+        diameterAvgCm: 132.5,
+        capacity: 'Muat 2 Orang Dewasa',
+        capacityNote: 'Perlindungan ekstra luas',
+        peopleCount: 2,
+        mechanism: 'Manual / Otomatis',
+        foldInfo: 'Panjang total: ± 100 cm',
+        handleType: 'wood-straight',
+        useCases: [
+          'Turnamen golf, hadiah klien VIP, & merchandise eksklusif',
+          'Layanan vallet / payung tamu hotel bintang 5 & resort di Bali',
+          'Bisa request rangka fiber/double & gagang Kayu J atau Spon EVA'
+        ]
+      }
+    ];
+
+    // Golf 30" Custom Options
+    const golfRibChoices = [
+      { id: 'single', label: 'Ruji Single', isAuto: false, isDouble: false },
+      { id: 'double', label: 'Ruji Double', isAuto: false, isDouble: true },
+      { id: 'fiber-manual', label: 'Fiber Manual', isAuto: false, isDouble: false },
+      { id: 'fiber-auto', label: 'Fiber Otomatis', isAuto: true, isDouble: false }
+    ];
+
+    const golfHandleChoices = [
+      { id: 'kayu-standar', label: 'Kayu (Standar)', shape: 'wood-straight', requiresAuto: false },
+      { id: 'kayu-j', label: 'Kayu J (Lengkung)', shape: 'wood-j', requiresAuto: false },
+      { id: 'plastik-pedal', label: 'Plastik Pedal', shape: 'plastic-pedal', requiresAuto: false },
+      { id: 'spon-eva', label: 'Spon EVA (Otomatis)', shape: 'golf-eva', requiresAuto: true }
+    ];
+
+    let activeIndex = 3; // Default Semi Golf 28"
+    let selectedGolfRib = 'fiber-auto';
+    let selectedGolfHandle = 'kayu-standar';
+
+    // DOM Elements
+    const sizeSelector = document.getElementById('sizeSelector');
+    const compareToggle = document.getElementById('compareToggle');
+    const ghostComparison = document.getElementById('ghostComparison');
+    const comparisonTableBody = document.getElementById('comparisonTableBody');
+    const mobileComparisonCards = document.getElementById('mobileComparisonCards');
+    const formSizeSelect = document.getElementById('formSizeSelect');
+    const formQty = document.getElementById('formQty');
+    const formName = document.getElementById('formName');
+    const generatedMessage = document.getElementById('generatedMessage');
+    const copyMsgBtn = document.getElementById('copyMsgBtn');
+    const toastBox = document.getElementById('toastBox');
+
+    // Mobile Menu Drawer Logic
+    const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+    const mobileMenuDrawer = document.getElementById('mobileMenuDrawer');
+    const menuIconOpen = document.getElementById('menuIconOpen');
+    const menuIconClose = document.getElementById('menuIconClose');
+
+    mobileMenuBtn.addEventListener('click', () => {
+      const isHidden = mobileMenuDrawer.classList.contains('hidden');
+      if (isHidden) {
+        mobileMenuDrawer.classList.remove('hidden');
+        menuIconOpen.classList.add('hidden');
+        menuIconClose.classList.remove('hidden');
+      } else {
+        mobileMenuDrawer.classList.add('hidden');
+        menuIconOpen.classList.remove('hidden');
+        menuIconClose.classList.add('hidden');
+      }
+    });
+
+    document.querySelectorAll('.mobile-nav-link').forEach(link => {
+      link.addEventListener('click', () => {
+        mobileMenuDrawer.classList.add('hidden');
+        menuIconOpen.classList.remove('hidden');
+        menuIconClose.classList.add('hidden');
+      });
+    });
+
+    // Initialize UI
+    function init() {
+      renderSelectorButtons();
+      renderGolfCustomOptions();
+      renderTableAndMobileCards();
+      populateFormSelect();
+      updateVisualStage(activeIndex);
+      updateInquiryMessage();
+    }
+
+    // Render 5 Pill Buttons (Mobile-First Grid: 2 cols on mobile, last item spans 2 cols cleanly)
+    function renderSelectorButtons() {
+      sizeSelector.innerHTML = umbrellaData.map((item, idx) => {
+        const isActive = idx === activeIndex;
+        const isLastOnMobile = idx === umbrellaData.length - 1 ? 'col-span-2 sm:col-span-1' : '';
+        return `
+          <button 
+            type="button"
+            onclick="selectUmbrella(${idx})"
+            class="${isLastOnMobile} text-left px-3.5 py-2.5 sm:py-3 rounded-xl sm:rounded-2xl border transition-all duration-200 flex items-center sm:flex-col sm:items-start justify-between gap-1 active:scale-[0.98] ${
+              isActive 
+                ? 'bg-blue-600 border-blue-600 text-white shadow-md shadow-blue-600/20 ring-2 ring-blue-600/20' 
+                : 'bg-white border-slate-200/90 text-slate-700 hover:border-blue-300 hover:bg-blue-50/40'
+            }"
+          >
+            <span class="text-xs sm:text-sm font-bold block leading-tight">${item.shortName}</span>
+            <span class="text-[11px] ${isActive ? 'text-blue-100' : 'text-slate-400'} font-medium">
+              ${item.mobileDim}
+            </span>
+          </button>
+        `;
+      }).join('');
+    }
+
+    // Render Golf 30" Customizer Buttons
+    function renderGolfCustomOptions() {
+      const ribContainer = document.getElementById('golfRibOptions');
+      const handleContainer = document.getElementById('golfHandleOptions');
+
+      ribContainer.innerHTML = golfRibChoices.map(r => {
+        const active = r.id === selectedGolfRib;
+        return `
+          <button type="button" onclick="selectGolfRib('${r.id}')" class="px-2.5 py-2 rounded-xl border text-xs font-semibold text-left transition-all ${
+            active 
+              ? 'bg-amber-600 border-amber-600 text-white shadow-2xs' 
+              : 'bg-white border-amber-200 text-slate-700 hover:bg-amber-100/50'
+          }">
+            ${r.label}
+          </button>
+        `;
+      }).join('');
+
+      const currentRibObj = golfRibChoices.find(r => r.id === selectedGolfRib);
+      const isAutoSelected = currentRibObj ? currentRibObj.isAuto : false;
+
+      handleContainer.innerHTML = golfHandleChoices.map(h => {
+        const active = h.id === selectedGolfHandle;
+        const disabled = h.requiresAuto && !isAutoSelected;
+        return `
+          <button type="button" onclick="selectGolfHandle('${h.id}')" class="px-2.5 py-2 rounded-xl border text-xs font-semibold text-left transition-all ${
+            active 
+              ? 'bg-slate-900 border-slate-900 text-white shadow-2xs' 
+              : disabled
+                ? 'bg-white/60 border-slate-200 text-slate-400 hover:bg-white'
+                : 'bg-white border-amber-200 text-slate-700 hover:bg-amber-100/50'
+          }">
+            <span>${h.label}</span>
+          </button>
+        `;
+      }).join('');
+
+      const evaHint = document.getElementById('evaNoteHint');
+      if (selectedGolfHandle === 'spon-eva' || !isAutoSelected) {
+        evaHint.classList.remove('hidden');
+      } else {
+        evaHint.classList.add('hidden');
+      }
+    }
+
+    function selectGolfRib(ribId) {
+      selectedGolfRib = ribId;
+      const ribObj = golfRibChoices.find(r => r.id === ribId);
+      // If user switches to manual while Spon EVA is selected, reset handle to Kayu Standar
+      if (!ribObj.isAuto && selectedGolfHandle === 'spon-eva') {
+        selectedGolfHandle = 'kayu-standar';
+        showToast('Handel dikembalikan ke Kayu Standar (Spon EVA khusus varian Otomatis).');
+      }
+      renderGolfCustomOptions();
+      updateVisualStage(activeIndex);
+      updateInquiryMessage();
+    }
+
+    function selectGolfHandle(handleId) {
+      const handleObj = golfHandleChoices.find(h => h.id === handleId);
+      // If user picks Spon EVA, auto-switch mechanism to Fiber Otomatis
+      if (handleObj.requiresAuto) {
+        selectedGolfRib = 'fiber-auto';
+        showToast('Mekanisme otomatis dipilih (Spon EVA khusus varian Otomatis).');
+      }
+      selectedGolfHandle = handleId;
+      renderGolfCustomOptions();
+      updateVisualStage(activeIndex);
+      updateInquiryMessage();
+    }
+
+    // Render Comparison Table (Desktop) & Cards (Mobile)
+    function renderTableAndMobileCards() {
+      // Desktop Table
+      comparisonTableBody.innerHTML = umbrellaData.map((item, idx) => {
+        const isActive = idx === activeIndex;
+        const featureSummary = item.id === 'golf-30' 
+          ? 'Ruji Single / Double / Fiber • Handel Kayu, Kayu J, Plastik Pedal, Spon EVA' 
+          : `${item.mechanism} • ${item.foldInfo}`;
+        return `
+          <tr 
+            onclick="selectUmbrella(${idx}); document.getElementById('visualizer').scrollIntoView({behavior: 'smooth'});"
+            class="cursor-pointer transition-colors ${isActive ? 'bg-blue-50/80' : 'hover:bg-slate-50'}"
+          >
+            <td class="py-4 px-5 font-bold text-slate-900">
+              <div class="flex items-center gap-2">
+                <span class="w-2.5 h-2.5 rounded-full ${isActive ? 'bg-blue-600' : 'bg-slate-300'}"></span>
+                <span>${item.title}</span>
+              </div>
+            </td>
+            <td class="py-4 px-5 font-medium text-amber-800">${item.ribIn} <span class="text-slate-500 font-normal">(${item.ribCm})</span></td>
+            <td class="py-4 px-5 font-bold text-blue-700">${item.diameterText}</td>
+            <td class="py-4 px-5 text-slate-600 text-xs">${featureSummary}</td>
+            <td class="py-4 px-5">
+              <span class="inline-block px-2.5 py-1 rounded-lg text-xs font-semibold bg-slate-100 text-slate-700">
+                ${item.capacity}
+              </span>
+            </td>
+          </tr>
+        `;
+      }).join('');
+
+      // Mobile Cards
+      mobileComparisonCards.innerHTML = umbrellaData.map((item, idx) => {
+        const isActive = idx === activeIndex;
+        const extraNote = item.id === 'golf-30'
+          ? 'Custom: Ruji Single/Double/Fiber • Handel Kayu, Kayu J, Plastik Pedal, Spon EVA'
+          : `${item.mechanism} • ${item.foldInfo}`;
+        return `
+          <div 
+            onclick="selectUmbrella(${idx}); document.getElementById('visualizer').scrollIntoView({behavior: 'smooth'});"
+            class="p-4 rounded-2xl border transition-all cursor-pointer active:scale-[0.99] ${
+              isActive ? 'bg-blue-50/70 border-blue-500 shadow-xs' : 'bg-white border-slate-200'
+            }"
+          >
+            <div class="flex items-start justify-between gap-2 mb-2">
+              <span class="font-display font-bold text-sm text-slate-900">${item.title}</span>
+              <span class="shrink-0 px-2 py-0.5 rounded-md text-[10px] font-bold bg-blue-100 text-blue-800">${item.capacity}</span>
+            </div>
+            <div class="grid grid-cols-2 gap-2 text-xs mb-2">
+              <div class="bg-amber-50/90 px-2.5 py-1.5 rounded-lg">
+                <span class="text-[10px] text-amber-800 block">Jari-jari:</span>
+                <span class="font-bold text-slate-900">${item.ribIn} (${item.ribCm})</span>
+              </div>
+              <div class="bg-blue-50/90 px-2.5 py-1.5 rounded-lg">
+                <span class="text-[10px] text-blue-800 block">Diameter Terbuka:</span>
+                <span class="font-bold text-blue-700">${item.diameterText}</span>
+              </div>
+            </div>
+            <p class="text-[11px] text-slate-500">${extraNote}</p>
+          </div>
+        `;
+      }).join('');
+    }
+
+    // Populate Form Select
+    function populateFormSelect() {
+      formSizeSelect.innerHTML = umbrellaData.map((item, idx) => {
+        return `<option value="${idx}" ${idx === activeIndex ? 'selected' : ''}>${item.title} — Diameter ${item.diameterText}</option>`;
+      }).join('');
+    }
+
+    // Main Update Function
+    function selectUmbrella(idx) {
+      activeIndex = idx;
+      renderSelectorButtons();
+      renderTableAndMobileCards();
+      formSizeSelect.value = idx;
+      updateVisualStage(idx);
+      updateInquiryMessage();
+    }
+
+    function updateVisualStage(idx) {
+      const data = umbrellaData[idx];
+      const golfCustomizer = document.getElementById('golf30Customizer');
+      const doubleRibIndicator = document.getElementById('doubleRibIndicator');
+
+      // Update Sticky Mobile Footer Text
+      document.getElementById('mobileStickyTitle').textContent = `${data.shortName} (${data.diameterText.replace('± ', '')})`;
+
+      // Show/Hide Golf 30" Customizer Panel
+      let activeHandleShape = data.handleType;
+      let mechanismDisplay = data.mechanism;
+      let foldDisplay = data.foldInfo;
+
+      if (data.id === 'golf-30') {
+        golfCustomizer.classList.remove('hidden');
+        const ribObj = golfRibChoices.find(r => r.id === selectedGolfRib);
+        const handleObj = golfHandleChoices.find(h => h.id === selectedGolfHandle);
+        mechanismDisplay = ribObj.label;
+        foldDisplay = `Handel: ${handleObj.label}`;
+        activeHandleShape = handleObj.shape;
+
+        if (ribObj.isDouble) {
+          doubleRibIndicator.classList.remove('opacity-0');
+          doubleRibIndicator.classList.add('opacity-100');
+        } else {
+          doubleRibIndicator.classList.remove('opacity-100');
+          doubleRibIndicator.classList.add('opacity-0');
+        }
+      } else {
+        golfCustomizer.classList.add('hidden');
+        doubleRibIndicator.classList.remove('opacity-100');
+        doubleRibIndicator.classList.add('opacity-0');
+      }
+
+      // 1. Update Text Details
+      document.getElementById('badgeHighlight').textContent = data.badge;
+      document.getElementById('specCategory').textContent = data.categoryLabel;
+      document.getElementById('specTitle').textContent = data.title;
+      document.getElementById('specSubtitle').textContent = data.subtitle;
+      document.getElementById('metricRibIn').textContent = data.ribIn;
+      document.getElementById('metricRibCm').textContent = `${data.ribCm} (1 sisi)`;
+      document.getElementById('metricDiameter').textContent = data.diameterText;
+      document.getElementById('metricCapacity').textContent = data.capacity;
+      document.getElementById('metricCapacityNote').textContent = data.capacityNote;
+      document.getElementById('metricMechanism').textContent = mechanismDisplay;
+      document.getElementById('metricFoldLength').textContent = foldDisplay;
+
+      document.getElementById('specUseCases').innerHTML = data.useCases.map(u => `
+        <li class="flex items-start gap-2">
+          <svg class="w-4 h-4 text-blue-600 shrink-0 mt-0.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+          </svg>
+          <span>${u}</span>
+        </li>
+      `).join('');
+
+      // 2. Calculate Proportional SVG Geometry
+      const scalePxPerCm = 2.4;
+      const halfSpanPx = (data.diameterAvgCm / 2) * scalePxPerCm;
+      const leftX = 220 - halfSpanPx;
+      const rightX = 220 + halfSpanPx;
+      const rimY = 115;
+      const apexY = Math.max(26, 115 - (halfSpanPx * 0.56));
+      const controlY = apexY - (halfSpanPx * 0.25);
+
+      // Update Canopy Path
+      const midLeftX = 220 - (halfSpanPx * 0.5);
+      const midRightX = 220 + (halfSpanPx * 0.5);
+      const canopyD = `M ${leftX} ${rimY} Q 220 ${controlY} ${rightX} ${rimY} Q ${midRightX} ${rimY - 9} 220 ${rimY} Q ${midLeftX} ${rimY - 9} ${leftX} ${rimY} Z`;
+      document.getElementById('canopyMain').setAttribute('d', canopyD);
+
+      // Center Panel Highlight
+      const panelLeftX = 220 - (halfSpanPx * 0.38);
+      const panelRightX = 220 + (halfSpanPx * 0.38);
+      const centerD = `M ${panelLeftX} ${rimY - 3} Q 220 ${controlY} ${panelRightX} ${rimY - 3} Q 220 ${rimY - 9} ${panelLeftX} ${rimY - 3} Z`;
+      document.getElementById('canopyCenter').setAttribute('d', centerD);
+
+      // Rib Highlight Curve
+      const ribCtrlX = 220 - (halfSpanPx * 0.52);
+      const ribCtrlY = apexY + ((rimY - apexY) * 0.36);
+      const ribD = `M 220 ${apexY + 4} Q ${ribCtrlX} ${ribCtrlY} ${leftX} ${rimY}`;
+      document.getElementById('ribHighlight').setAttribute('d', ribD);
+
+      // Shaft & Tip Positions
+      document.getElementById('umbrellaTip').setAttribute('y1', apexY - 11);
+      document.getElementById('umbrellaTip').setAttribute('y2', apexY + 4);
+      document.getElementById('umbrellaShaft').setAttribute('y1', apexY + 2);
+      
+      // Dynamic Handle Rendering (Supports Wood Straight, Wood J-Hook, Plastic Pedal, Spon EVA, Compact)
+      const handleEl = document.getElementById('umbrellaHandle');
+      handleEl.setAttribute('stroke', '#0f172a');
+
+      if (activeHandleShape === 'compact') {
+        document.getElementById('umbrellaShaft').setAttribute('y2', 202);
+        handleEl.setAttribute('d', 'M 220 200 L 220 216');
+        handleEl.setAttribute('stroke-width', '8');
+      } else if (activeHandleShape === 'wood-straight') {
+        document.getElementById('umbrellaShaft').setAttribute('y2', 214);
+        handleEl.setAttribute('d', 'M 220 212 L 220 236');
+        handleEl.setAttribute('stroke', 'url(#woodHandleGrad)');
+        handleEl.setAttribute('stroke-width', '7.5');
+      } else if (activeHandleShape === 'wood-j') {
+        document.getElementById('umbrellaShaft').setAttribute('y2', 214);
+        handleEl.setAttribute('d', 'M 220 212 L 220 234 A 9 9 0 0 0 238 234 L 238 228');
+        handleEl.setAttribute('stroke', 'url(#woodHandleGrad)');
+        handleEl.setAttribute('stroke-width', '7');
+      } else if (activeHandleShape === 'plastic-pedal') {
+        document.getElementById('umbrellaShaft').setAttribute('y2', 214);
+        handleEl.setAttribute('d', 'M 220 212 L 220 235 L 225 238 L 215 238 Z');
+        handleEl.setAttribute('stroke', '#1e293b');
+        handleEl.setAttribute('stroke-width', '6.5');
+      } else if (activeHandleShape === 'golf' || activeHandleShape === 'golf-eva') {
+        document.getElementById('umbrellaShaft').setAttribute('y2', 216);
+        handleEl.setAttribute('d', 'M 220 214 L 220 238');
+        handleEl.setAttribute('stroke', '#0f172a');
+        handleEl.setAttribute('stroke-width', '8.5');
+      } else {
+        document.getElementById('umbrellaShaft').setAttribute('y2', 212);
+        handleEl.setAttribute('d', 'M 220 210 L 220 232');
+        handleEl.setAttribute('stroke-width', '7');
+      }
+
+      // Rib Callout Badge Position & Text
+      const calloutX = Math.max(76, ribCtrlX - 24);
+      const calloutY = Math.max(32, ribCtrlY - 22);
+      document.getElementById('ribCallout').setAttribute('transform', `translate(${calloutX}, ${calloutY})`);
+      document.getElementById('ribCalloutText').textContent = data.ribShortCallout;
+
+      // Diameter Dimension Lines & Arrows
+      document.getElementById('dimLineLeft').setAttribute('x1', leftX);
+      document.getElementById('dimLineLeft').setAttribute('x2', leftX);
+      document.getElementById('dimLineRight').setAttribute('x1', rightX);
+      document.getElementById('dimLineRight').setAttribute('x2', rightX);
+      document.getElementById('dimArrow').setAttribute('x1', leftX + 3);
+      document.getElementById('dimArrow').setAttribute('x2', rightX - 3);
+      document.getElementById('arrowHeadL').setAttribute('points', `${leftX},136 ${leftX + 8},132 ${leftX + 8},140`);
+      document.getElementById('arrowHeadR').setAttribute('points', `${rightX},136 ${rightX - 8},132 ${rightX - 8},140`);
+      document.getElementById('diameterCalloutText').textContent = `Diameter: ${data.diameterText}`;
+
+      // 3. Update Human Silhouettes
+      const person1 = document.getElementById('person1');
+      const person2 = document.getElementById('person2');
+      const person2Label = document.getElementById('person2Label');
+
+      if (data.peopleCount >= 2) {
+        person1.setAttribute('transform', 'translate(186, 133)');
+        person2.setAttribute('transform', 'translate(254, 139)');
+        person2.setAttribute('opacity', '1');
+        person2Label.textContent = 'Orang ke-2';
+      } else if (data.peopleCount > 1) {
+        person1.setAttribute('transform', 'translate(196, 133)');
+        person2.setAttribute('transform', 'translate(256, 139)');
+        person2.setAttribute('opacity', '0.45');
+        person2Label.textContent = 'Ekstra Ruang';
+      } else {
+        person1.setAttribute('transform', 'translate(202, 133)');
+        person2.setAttribute('transform', 'translate(262, 139)');
+        person2.setAttribute('opacity', '0.18');
+        person2Label.textContent = 'Di Luar';
+      }
+
+      // 4. Move Raindrops
+      const rainL = Math.max(18, leftX - 18);
+      const rainR = Math.min(422, rightX + 18);
+      document.getElementById('rainLeft1').setAttribute('x1', rainL);
+      document.getElementById('rainLeft1').setAttribute('x2', rainL - 4);
+      document.getElementById('rainLeft2').setAttribute('x1', rainL - 8);
+      document.getElementById('rainLeft2').setAttribute('x2', rainL - 12);
+      document.getElementById('rainLeft3').setAttribute('x1', rainL + 4);
+      document.getElementById('rainLeft3').setAttribute('x2', rainL);
+
+      document.getElementById('rainRight1').setAttribute('x1', rainR);
+      document.getElementById('rainRight1').setAttribute('x2', rainR - 4);
+      document.getElementById('rainRight2').setAttribute('x1', rainR + 8);
+      document.getElementById('rainRight2').setAttribute('x2', rainR + 4);
+      document.getElementById('rainRight3').setAttribute('x1', rainR - 4);
+      document.getElementById('rainRight3').setAttribute('x2', rainR - 8);
+    }
+
+    // Toggle Ghost Comparison
+    compareToggle.addEventListener('change', (e) => {
+      if (e.target.checked) {
+        ghostComparison.classList.remove('opacity-0');
+        ghostComparison.classList.add('opacity-100');
+      } else {
+        ghostComparison.classList.remove('opacity-100');
+        ghostComparison.classList.add('opacity-0');
+      }
+    });
+
+    // Sync Form & Generated Message (Includes Golf 30" Custom Specs if chosen)
+    function updateInquiryMessage() {
+      const selectedIdx = parseInt(formSizeSelect.value, 10);
+      const item = umbrellaData[selectedIdx];
+      const qty = formQty.value ? `${formQty.value} pcs` : '___ pcs';
+      const sender = formName.value.trim() ? `Saya ${formName.value.trim()}` : 'Halo Alat Promosi Bali';
+
+      let customSpecText = '';
+      if (item.id === 'golf-30') {
+        const ribObj = golfRibChoices.find(r => r.id === selectedGolfRib);
+        const handleObj = golfHandleChoices.find(h => h.id === selectedGolfHandle);
+        customSpecText = ` (Request: ${ribObj.label}, Handel ${handleObj.label})`;
+      }
+
+      generatedMessage.value = `${sender}, saya tertarik memesan *${item.title}*${customSpecText} — Diameter terbuka ${item.diameterText} untuk estimasi jumlah *${qty}*. Boleh dibantu buatkan penawaran harga dan mockup desain gratisnya? Terima kasih.`;
+    }
+
+    formSizeSelect.addEventListener('change', (e) => {
+      const idx = parseInt(e.target.value, 10);
+      selectUmbrella(idx);
+    });
+    formQty.addEventListener('input', updateInquiryMessage);
+    formName.addEventListener('input', updateInquiryMessage);
+
+    // Copy to Clipboard
+    copyMsgBtn.addEventListener('click', () => {
+      generatedMessage.select();
+      generatedMessage.setSelectionRange(0, 99999);
+      try {
+        document.execCommand('copy');
+        showToast('Teks pesan berhasil disalin! Silakan tempel di WhatsApp.');
+      } catch (err) {
+        showToast('Gagal menyalin otomatis, silakan salin teks di kotak.');
+      }
+    });
+
+    function showToast(msg) {
+      document.getElementById('toastText').textContent = msg;
+      toastBox.classList.remove('translate-y-24', 'opacity-0');
+      setTimeout(() => {
+        toastBox.classList.add('translate-y-24', 'opacity-0');
+      }, 3200);
+    }
+
+    // Boot
+    init();
+  </script>
+</body>
+</html>
